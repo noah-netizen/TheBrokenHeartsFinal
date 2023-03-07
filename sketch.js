@@ -66,7 +66,7 @@ let g1Y;
 let g2X; 
 let g2Y;
 let g3X; 
-let g3Y;
+let g3Y; //(nice)
 let gWidth, gHeight;
 let gSpeed = 100;
 
@@ -119,7 +119,7 @@ const color2 = `rgb(${r2}, ${g2}, ${b2})`;
 
 //// setup //////////////////////////////////////////// 
 function setup() { // this is the setup function that will only run once at the beginning of the game
-  //introSong.play();
+  introSong.play();
   setTimeout(function() {
     introSong.play();
   }, 35000); // 15000 milliseconds = 15 seconds
