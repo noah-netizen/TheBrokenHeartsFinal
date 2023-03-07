@@ -529,7 +529,7 @@ function preload(){
   landscape = loadImage('images/landscape.png'); 
   jumpSound = loadSound('sounds/jump.mp3');
   heart = loadImage('images/heart.png');
-  tbhFont = loadFont('fonts/tbh.ttf');
+  tbhFont = loadFont('fonts/tbh.TTF');
   ghoulking = loadImage('images/ghoulking.png');
   lifeSound = loadSound('sounds/life.mp3');
   introSong = loadSound('sounds/intro.mp3'); // credit to nene on OpenGameArt.org for the song
